@@ -1,0 +1,23 @@
+{
+  "name": "appointment-booking-be",
+  "version": "1.0.0",
+  "description": "This is the backend code for doctor appointment booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "nodemon": "nodemon app.js"
+  },
+  "author": "Renishkar J",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

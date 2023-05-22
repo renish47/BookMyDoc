@@ -1,0 +1,28 @@
+.signup__bg{
+    height: 100vh;
+    cursor:default;
+}
+
+.signup__signupBtn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signup__container{
+    height: 100%;
+}
+
+.signup__purchaseCodeInp {
+    width: 70px;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .signup__border{
+        border: 0 !important;
+    }
+  }

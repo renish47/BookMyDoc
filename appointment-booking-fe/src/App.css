@@ -1,0 +1,12 @@
+.navLink{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.whiteBg{
+    background-color: white !important;
+}
+
+.timeSlotBtn{
+    width: 90px !important;
+}
