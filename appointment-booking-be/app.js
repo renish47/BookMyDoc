@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const bodyParser = require('body-parser');
+const dotEnv = require('dotenv').config();
 
 const doctorRouter = require('./routes/doctor');
 const patientRouter = require('./routes/patient');
@@ -33,8 +34,8 @@ app.use((error, req, res, next) => {
   });
 
 
-mongoose.connect("mongodb+srv://renishkar47:renishkar47@cluster0.k0umtmk.mongodb.net/AarogProject")
+mongoose.connect(process.env.MONGODB_URI)
     .then(res => {
-        app.listen(3001);
+        app.listen(process.env.PORT);
     })
     .catch(err => console.log(err));
