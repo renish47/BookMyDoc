@@ -2,6 +2,9 @@
 
 Welcome to the **BookMyDoc** repository! This is a full-stack project developed using React, Bootstrap, Node.js, Express, MongoDB, Mongoose, Bcrypt.js, and JSON Web Tokens (JWT). The application provides functionalities for both doctors and patients to book and manage appointments. Below, you'll find detailed information on setting up and running this application.
 
+![Screenshot 2023-09-30 171250](https://github.com/renish47/BookMyDoc/assets/107568859/281df43c-cf56-4cc4-96eb-33dda29c20ae)
+
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -10,8 +13,6 @@ Welcome to the **BookMyDoc** repository! This is a full-stack project developed 
 - [Installation](#installation)
 - [Usage](#usage)
 - [ToDo](#todo)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -44,17 +45,28 @@ Welcome to the **BookMyDoc** repository! This is a full-stack project developed 
 - Date picker displays available dates for selected doctors.
 - Time slots are shown for selected dates.
 - Patients provide required details and book appointments.
+  
+  ![Screenshot 2023-09-30 171214](https://github.com/renish47/BookMyDoc/assets/107568859/fdd1f46c-3fd7-4f08-a9d9-5d51b30adf31)
+
 
 ### 5. Patient Appointment Management
 - Patients can view and manage their booked appointments in their dashboard.
 - Options to reschedule or cancel appointments are available.
 
+  ![Screenshot 2023-09-30 171228](https://github.com/renish47/BookMyDoc/assets/107568859/c648cc9d-6a87-4ecc-a5c5-2fb93cb8a094)
+
+
 ### 6. Doctor Availability Setup
 - Doctors are prompted to enter their availability dates and times during their first sign-in.
+
+![Screenshot 2023-09-30 171222](https://github.com/renish47/BookMyDoc/assets/107568859/e6eeb671-5d4c-4aa5-8893-dd6fd75f1797)
 
 ### 7. Doctor Appointment Management
 - Doctors can check their appointments by selecting dates.
 - They can open appointments to view details, add remarks, and mark them as complete.
+
+![Screenshot 2023-09-30 171157](https://github.com/renish47/BookMyDoc/assets/107568859/90cbe81a-5c99-468c-b587-b9b01294cdda)
+  
 
 ### 8. Session Management
 - JSON Web Tokens (JWT) are used to monitor user sessions.
