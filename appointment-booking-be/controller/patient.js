@@ -166,7 +166,7 @@ exports.getPatient = async (req, res, next) => {
                     {
                         email: email,
                         userId: userData._id.toString()
-                    }, "verySuperSecretCode007", { expiresIn: '1h' });
+                    }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
                 res.status(200).json({
                     message: 'Logged in Successfully',
