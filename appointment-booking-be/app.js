@@ -35,6 +35,6 @@ app.use((error, req, res, next) => {
 
 mongoose.connect("mongodb+srv://renishkar47:renishkar47@cluster0.k0umtmk.mongodb.net/AarogProject")
     .then(res => {
-        app.listen(8080);
+        app.listen(3001);
     })
     .catch(err => console.log(err));
